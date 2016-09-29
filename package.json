@@ -1,0 +1,25 @@
+{
+  "name": "jeffersonribeiro.com",
+  "version": "1.0.0",
+  "description": "Site pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonRibeiro/website.git"
+  },
+  "author": "Jefferson Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersonRibeiro/website/issues"
+  },
+  "homepage": "https://github.com/jeffersonRibeiro/website#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglifycss": "^1.0.6"
+  }
+}
