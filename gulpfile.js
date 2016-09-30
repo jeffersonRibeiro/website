@@ -4,8 +4,7 @@ var gulp 	   = require('gulp'),
 	concatcss  = require('gulp-concat-css'),
 	browserify = require('gulp-browserify'),
 	rename     = require('gulp-rename'),
-	uglify     = require('gulp-uglify'),
-	pump       = require('pump');
+	uglify     = require('gulp-uglify');
 
 
 var paths = {
