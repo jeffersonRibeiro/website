@@ -4,8 +4,7 @@
   "description": "Site pessoal",
   "main": "index.js",
   "scripts": {
-    "build": "browserify assets/js/app.js -o assets/js/bundle.js",
-    "watch": "watchify assets/js/app.js -o assets/js/bundle.js"
+    "build": "browserify assets/js/app.js -o assets/js/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +19,13 @@
   "devDependencies": {
     "browserify": "^13.1.0",
     "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
     "gulp-concat-css": "^2.3.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
     "gulp-uglifycss": "^1.0.6",
     "jquery": "^3.1.1",
-    "watchify": "^3.7.0"
+    "pump": "^1.0.1"
   }
 }
