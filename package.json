@@ -4,7 +4,8 @@
   "description": "Site pessoal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify assets/js/app.js -o assets/js/bundle.js",
+    "watch": "watchify assets/js/app.js -o assets/js/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,12 @@
   },
   "homepage": "https://github.com/jeffersonRibeiro/website#readme",
   "devDependencies": {
+    "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-concat-css": "^2.3.0",
     "gulp-sass": "^2.3.2",
-    "gulp-uglifycss": "^1.0.6"
+    "gulp-uglifycss": "^1.0.6",
+    "jquery": "^3.1.1",
+    "watchify": "^3.7.0"
   }
 }
