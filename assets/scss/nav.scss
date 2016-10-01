@@ -6,7 +6,32 @@ nav{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	font-size: 1.4em;
+
+	.logo-container{
+		float: left;
+		position: relative;
+		width: 100px;
+		height: 100px;
+		padding: 12px;
+		cursor: default;
+
+		.logo{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			border-radius: 50%;
+			border: 3px solid rgba(255, 255, 255, 0.95);
+			box-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
+
+			span{
+				color: rgba(255, 255, 255, 0.95);
+				text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.1);
+				font-size: 1.6em;
+				font-weight: normal;
+
+			}
+		}
+	}
 
 	ul{
 		float: right;
@@ -18,13 +43,13 @@ nav{
 			display: inline-block;
 			margin-left: 20px;
 			a {
-				color: white;
+				color: rgba(255, 255, 255, 0.95);
 				text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
 				text-decoration: none;
 
 				&:hover {
 					text-decoration: none;
-					text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.3);
+					color: rgba(255, 255, 255, 0.8);
 				}
 			}
 		}
