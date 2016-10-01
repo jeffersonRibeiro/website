@@ -11,10 +11,10 @@ footer{
 
   .contact-container,
   .aboutsite-container{
-  	width: 50%;
-  	color: rgba(255, 255, 255, 0.95);
-	text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
-	text-decoration: none;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 
   	a {
   		color: rgba(255, 255, 255, 0.95);
@@ -41,7 +41,7 @@ footer{
   	padding: 10px 0;
   	margin-top: 20px;
   	color: rgba(255, 255, 255, 0.95);
-	text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
+	  text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
 
   	span{
   		width: 100%;
@@ -55,6 +55,18 @@ footer{
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 480px) {
   /* Styles */
+  footer{
+    font-size: 0.5em;
+
+    .contact-container,
+    .aboutsite-container{
+      width: 100%;
+    }
+
+    .copyright{
+      font-size: 1.5em;
+    }
+  }
 }
 
 /* Desktops and laptops ----------- */

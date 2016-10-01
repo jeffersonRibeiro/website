@@ -10,7 +10,7 @@
     background-color: #FF2E63;
     overflow: hidden; }
     .main-content header.welcome-container .welcome-message {
-      margin: 180px 0 0 80px;
+      margin: 210px 0 0 80px;
       color: rgba(255, 255, 255, 0.95);
       text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.1);
       font-size: 2em;
@@ -96,26 +96,47 @@
     margin-top: 140px; }
     .main-content #contrate .video-container {
       width: 100%;
-      height: 400px;
       overflow: hidden;
       position: relative;
       text-align: center;
-      background-color: black; }
-      .main-content #contrate .video-container video {
-        margin-top: -300px; }
+      background-color: #FF2E63;
+      padding: 50px 0; }
       .main-content #contrate .video-container .wrapper {
         color: rgba(255, 255, 255, 0.95);
         text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
-        top: 60px;
+        z-index: 1;
         line-height: 2.5em; }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 480px) {
   /* Styles */
-  .main-content header.welcome-container .welcome-message {
-    margin: 150px 0 0 0px;
-    font-size: 1.5em;
-    line-height: 1.5em; } }
+  .main-content header.welcome-container {
+    height: 480px; }
+    .main-content header.welcome-container .welcome-message {
+      margin: 150px 0 0 0px;
+      font-size: 1.2em;
+      line-height: 1.5em; }
+  .main-content #sobre p {
+    padding: 0px; }
+  .main-content #conhecimentos {
+    margin-top: 0px; }
+    .main-content #conhecimentos .front-end,
+    .main-content #conhecimentos .back-end,
+    .main-content #conhecimentos .frameworks,
+    .main-content #conhecimentos .outros {
+      margin-top: 0px; }
+    .main-content #conhecimentos .categoria {
+      width: 100%;
+      margin-top: 50px; }
+    .main-content #conhecimentos .desc {
+      width: 100%;
+      margin: 0; }
+  .main-content #contrate {
+    margin-top: 0px; }
+    .main-content #contrate .video-container video {
+      display: none; }
+    .main-content #contrate .video-container .wrapper {
+      font-size: 0.8em; } }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {

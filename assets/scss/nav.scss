@@ -13,6 +13,7 @@ nav{
 		width: 100px;
 		height: 100px;
 		padding: 12px;
+		margin-top: 20px;
 		cursor: default;
 
 		.logo{
@@ -39,6 +40,7 @@ nav{
 		padding: 0;
 		display: inline-block;
 		list-style-type: none;
+		margin-top: 40px;
 		li{
 			display: inline-block;
 			margin-left: 20px;
@@ -64,13 +66,11 @@ nav{
   		width: 80px;
   		height: 80px;
   		padding: 0px;
-  		margin-top: 12px;
   		.logo{
 
   		}
   	}
   	ul.links{
-  		margin-top: 40px;
 
   		a[href="#conhecimentos"]{
   			display: none;
