@@ -42,17 +42,24 @@
 .thin{ font-weight: 100 }
 .italic{ font-style: italic }
 
-.float-left{
-  float: left;
+.larger {
+    font-size: 2em;
 }
 
-.float-right{
-  float: right;
-}
+.bg-cyan{ background-color: $custom-cyan; }
+.bg-pink{ background-color: $custom-pink; }
+.bg-black{ background-color: $custom-black; }
+.bg-gray{ background-color: $custom-gray; }
 
-.clear{
-  clear: both;
-}
+.font-cyan{ color: $custom-cyan; }
+.font-pink{ color: $custom-pink; }
+.font-black{ color: $custom-black; }
+.font-gray{ color: $custom-gray; }
+
+.float-left{ float: left; }
+.float-right{ float: right; }
+
+.clear{ clear: both; }
 
 .center{
   top: 50%!important;

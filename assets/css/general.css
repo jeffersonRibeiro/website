@@ -48,6 +48,33 @@
 .italic {
   font-style: italic; }
 
+.larger {
+  font-size: 2em; }
+
+.bg-cyan {
+  background-color: #08D9D6; }
+
+.bg-pink {
+  background-color: #FF2E63; }
+
+.bg-black {
+  background-color: #252A34; }
+
+.bg-gray {
+  background-color: #EAEAEA; }
+
+.font-cyan {
+  color: #08D9D6; }
+
+.font-pink {
+  color: #FF2E63; }
+
+.font-black {
+  color: #252A34; }
+
+.font-gray {
+  color: #EAEAEA; }
+
 .float-left {
   float: left; }
 
