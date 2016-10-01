@@ -55,6 +55,7 @@ nav {
   nav ul.links a[href="#conhecimentos"] {
     display: none; } }
 
+/* tablets (portrait) ----------- */
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */ }

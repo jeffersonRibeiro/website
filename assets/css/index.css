@@ -152,6 +152,20 @@
     .main-content #contrate .video-container .wrapper {
       font-size: 0.8em; } }
 
+/* tablets (portrait) ----------- */
+@media only screen and (min-width: 680px) and (max-width: 1224px) {
+  .main-content header.welcome-container .welcome-message {
+    margin: 170px 0 0 20px; }
+  .main-content #sobre p {
+    padding: 0px; }
+  .main-content #conhecimentos .categoria {
+    width: 30%; }
+  .main-content #conhecimentos .desc {
+    width: 70%; }
+  .main-content #contrate .video-container {
+    padding: 0px 0;
+    background-color: white; } }
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */ }

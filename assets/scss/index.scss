@@ -250,6 +250,60 @@
   }
 }
 
+/* tablets (portrait) ----------- */
+@media only screen and (min-width: $tablets-size) and (max-width: $desktops-size) {
+  .main-content{
+    header.welcome-container{
+      // height: 480px;
+
+      .welcome-message{
+        margin: 170px 0 0 20px;
+        // font-size: 1.2em;
+        // line-height: 1.5em;
+
+        h1, h2, p{
+          // margin: 20px 0;
+        }
+      }
+    }
+    #sobre{
+
+      // img.perfil{
+      // }
+
+      p{
+        padding: 0px;
+      }
+    }
+
+    #conhecimentos{
+      .categoria{
+        width: 30%;
+      }
+      .desc{
+        width: 70%;
+      }
+    }
+
+    #contrate{
+      // margin-top: 0px;
+
+      .video-container{
+        padding: 0px 0;
+        background-color: white;
+        video{
+          // margin-top: -400px;
+          // display: none;
+        }
+
+        .wrapper{
+          // font-size: 0.8em;
+        }
+      }
+    } 
+  }
+}
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: $desktops-size) {
   /* Styles */

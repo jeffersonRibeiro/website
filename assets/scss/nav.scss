@@ -81,6 +81,11 @@ nav{
   }
 }
 
+/* tablets (portrait) ----------- */
+@media only screen and (min-width: $tablets-size) and (max-width: $desktops-size) {
+
+}
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: $desktops-size) {
   /* Styles */

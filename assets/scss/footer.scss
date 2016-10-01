@@ -75,6 +75,17 @@ footer{
   }
 }
 
+/* tablets (portrait) ----------- */
+@media only screen and (min-width: $tablets-size) and (max-width: $desktops-size) {
+  footer{
+    font-size: 0.5em;
+
+    .copyright{
+      font-size: 1.5em;
+    }
+  }
+}
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: $desktops-size) {
   /* Styles */
