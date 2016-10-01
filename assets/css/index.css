@@ -116,6 +116,8 @@
       margin: 150px 0 0 0px;
       font-size: 1.2em;
       line-height: 1.5em; }
+  .main-content #sobre img.perfil {
+    margin: 40px auto; }
   .main-content #sobre p {
     padding: 0px; }
   .main-content #conhecimentos {
@@ -127,7 +129,12 @@
       margin-top: 0px; }
     .main-content #conhecimentos .categoria {
       width: 100%;
-      margin-top: 50px; }
+      margin-bottom: 0; }
+      .main-content #conhecimentos .categoria .cat-icon {
+        width: 190px;
+        height: 190px; }
+        .main-content #conhecimentos .categoria .cat-icon i {
+          font-size: 3em; }
     .main-content #conhecimentos .desc {
       width: 100%;
       margin: 0; }

@@ -187,7 +187,7 @@
       img.perfil{
         // width: 150px;
         // height: 150px;
-        // margin: 60px auto;
+        margin: 40px auto;
       }
 
       p{
@@ -207,7 +207,15 @@
 
       .categoria{
         width: 100%;
-        margin-top: 50px;
+        margin-bottom: 0;
+        .cat-icon{
+          width: 190px;
+          height: 190px;
+
+          i{
+          font-size: 3em;
+          }
+        }
       }
       .desc{
         width: 100%;
