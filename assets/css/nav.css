@@ -44,12 +44,14 @@ nav {
           color: rgba(255, 255, 255, 0.8); }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
   /* Styles */
   nav .logo-container {
     width: 80px;
     height: 80px;
     padding: 0px; }
+  nav ul.links li {
+    margin-left: 10px; }
   nav ul.links a[href="#conhecimentos"] {
     display: none; } }
 

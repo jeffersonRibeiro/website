@@ -71,7 +71,9 @@ nav{
   		}
   	}
   	ul.links{
-
+  		li{
+			margin-left: 10px;
+		}
   		a[href="#conhecimentos"]{
   			display: none;
   		}

@@ -53,7 +53,7 @@ footer{
 
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: $mobiles-size) {
   /* Styles */
   footer{
     font-size: 0.5em;
@@ -70,11 +70,11 @@ footer{
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: $desktops-size) {
   /* Styles */
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: $largescreens-size) {
   /* Styles */
 }
