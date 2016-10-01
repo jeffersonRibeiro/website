@@ -54,6 +54,7 @@
       border-radius: 50%;
       display: block;
       margin: 60px auto;
+      opacity: 0.75;
     }
   }
 
@@ -64,17 +65,62 @@
   }
 
   #conhecimentos{
+    margin-top: 50px;
+
     .categoria{
       width: 20%;
       height: 200px;
       position: relative;
 
-      .icon{
+      .cat-icon{
         width: 200px;
         height: 200px;
         position: relative;
         border-radius: 50%;
-        background-color: $custom-cyan;
+
+        i{
+          font-size: 4em;
+          color: rgba(255, 255, 255, 0.8);
+
+          &.large{
+            font-size: 4em;
+            -webkit-transform: translate(-80%, -60%)!important;
+               -moz-transform: translate(-80%, -60%)!important;
+                -ms-transform: translate(-80%, -60%)!important;
+                 -o-transform: translate(-80%, -60%)!important;
+                    transform: translate(-80%, -60%)!important;
+          }
+          &.small{
+            font-size: 2em;
+            -webkit-transform: translate(30%, -10%)!important;
+               -moz-transform: translate(30%, -10%)!important;
+                -ms-transform: translate(30%, -10%)!important;
+                 -o-transform: translate(30%, -10%)!important;
+                    transform: translate(30%, -10%)!important;
+          }
+
+          &.ion-ios-box{
+            color: $custom-black;
+          }
+        }
+
+        &.cyan{
+          background-color: $custom-cyan;
+        }
+
+        &.pink{
+          background-color: $custom-pink;
+        }
+
+        &.black{
+          background-color: $custom-black;
+        }
+
+        &.gray{
+          background-color: $custom-gray;
+        }
+
+
       }
     }
     .desc{
@@ -90,6 +136,9 @@
         text-align: right;
       }
     }
-  }
+  }  
 
+  #contrate{
+    margin-top: 140px;
+  }
 }

@@ -38,26 +38,57 @@
     height: 150px;
     border-radius: 50%;
     display: block;
-    margin: 60px auto; }
+    margin: 60px auto;
+    opacity: 0.75; }
   .main-content .front-end,
   .main-content .back-end,
   .main-content .frameworks {
     margin-top: 50px; }
-  .main-content #conhecimentos .categoria {
-    width: 20%;
-    height: 200px;
-    position: relative; }
-    .main-content #conhecimentos .categoria .icon {
-      width: 200px;
+  .main-content #conhecimentos {
+    margin-top: 50px; }
+    .main-content #conhecimentos .categoria {
+      width: 20%;
       height: 200px;
-      position: relative;
-      border-radius: 50%;
-      background-color: #08D9D6; }
-  .main-content #conhecimentos .desc {
-    width: 80%;
-    height: 200px;
-    padding: 20px; }
-    .main-content #conhecimentos .desc h4 {
-      margin: 0; }
-    .main-content #conhecimentos .desc.float-left {
-      text-align: right; }
+      position: relative; }
+      .main-content #conhecimentos .categoria .cat-icon {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border-radius: 50%; }
+        .main-content #conhecimentos .categoria .cat-icon i {
+          font-size: 4em;
+          color: rgba(255, 255, 255, 0.8); }
+          .main-content #conhecimentos .categoria .cat-icon i.large {
+            font-size: 4em;
+            -webkit-transform: translate(-80%, -60%) !important;
+            -moz-transform: translate(-80%, -60%) !important;
+            -ms-transform: translate(-80%, -60%) !important;
+            -o-transform: translate(-80%, -60%) !important;
+            transform: translate(-80%, -60%) !important; }
+          .main-content #conhecimentos .categoria .cat-icon i.small {
+            font-size: 2em;
+            -webkit-transform: translate(30%, -10%) !important;
+            -moz-transform: translate(30%, -10%) !important;
+            -ms-transform: translate(30%, -10%) !important;
+            -o-transform: translate(30%, -10%) !important;
+            transform: translate(30%, -10%) !important; }
+          .main-content #conhecimentos .categoria .cat-icon i.ion-ios-box {
+            color: #252A34; }
+        .main-content #conhecimentos .categoria .cat-icon.cyan {
+          background-color: #08D9D6; }
+        .main-content #conhecimentos .categoria .cat-icon.pink {
+          background-color: #FF2E63; }
+        .main-content #conhecimentos .categoria .cat-icon.black {
+          background-color: #252A34; }
+        .main-content #conhecimentos .categoria .cat-icon.gray {
+          background-color: #EAEAEA; }
+    .main-content #conhecimentos .desc {
+      width: 80%;
+      height: 200px;
+      padding: 20px; }
+      .main-content #conhecimentos .desc h4 {
+        margin: 0; }
+      .main-content #conhecimentos .desc.float-left {
+        text-align: right; }
+  .main-content #contrate {
+    margin-top: 140px; }
