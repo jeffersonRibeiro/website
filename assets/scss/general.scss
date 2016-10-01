@@ -37,6 +37,10 @@
 
 * { box-sizing: border-box; }
 
+.nowrap {
+    white-space: nowrap;
+}
+
 .normal{ font-weight: normal }
 .bold{ font-weight: bold }
 .thin{ font-weight: 100 }
@@ -89,6 +93,7 @@
   margin: 0 auto;
 
   max-width: 1633px;
+  min-width: 310px;
 }
 
 
@@ -116,3 +121,17 @@ body {
 
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: $mobiles-size) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: $desktops-size) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: $largescreens-size) {
+  /* Styles */
+}

@@ -36,6 +36,9 @@
 * {
   box-sizing: border-box; }
 
+.nowrap {
+  white-space: nowrap; }
+
 .normal {
   font-weight: normal; }
 
@@ -114,7 +117,8 @@
   padding: 0 5%;
   position: relative;
   margin: 0 auto;
-  max-width: 1633px; }
+  max-width: 1633px;
+  min-width: 310px; }
 
 body {
   padding: 0;
@@ -129,3 +133,15 @@ body {
     text-decoration: none; }
     body a:hover {
       text-decoration: none; }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 480px) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }

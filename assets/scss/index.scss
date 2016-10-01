@@ -162,3 +162,33 @@
     }
   }
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: $mobiles-size) {
+  /* Styles */
+  .main-content{
+    header.welcome-container{
+      // height: 650px;
+
+      .welcome-message{
+        margin: 150px 0 0 0px;
+        font-size: 1.5em;
+        line-height: 1.5em;
+
+        h1, h2, p{
+          // margin: 20px 0;
+        }
+      }
+    }
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: $desktops-size) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: $largescreens-size) {
+  /* Styles */
+}

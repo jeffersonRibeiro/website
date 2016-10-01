@@ -24,19 +24,40 @@ nav {
         text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.1);
         font-size: 1.6em;
         font-weight: normal; }
-  nav ul {
+  nav ul.links {
     float: right;
     width: auto;
     padding: 0;
     display: inline-block;
     list-style-type: none; }
-    nav ul li {
+    nav ul.links li {
       display: inline-block;
       margin-left: 20px; }
-      nav ul li a {
+      nav ul.links li a {
         color: rgba(255, 255, 255, 0.95);
         text-shadow: 0em 0.05em 0.02em rgba(0, 0, 0, 0.2);
         text-decoration: none; }
-        nav ul li a:hover {
+        nav ul.links li a:hover {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.8); }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 480px) {
+  /* Styles */
+  nav .logo-container {
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    margin-top: 12px; }
+  nav ul.links {
+    margin-top: 40px; }
+    nav ul.links a[href="#conhecimentos"] {
+      display: none; } }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }

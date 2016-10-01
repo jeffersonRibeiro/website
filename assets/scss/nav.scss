@@ -33,7 +33,7 @@ nav{
 		}
 	}
 
-	ul{
+	ul.links{
 		float: right;
 		width: auto;
 		padding: 0;
@@ -54,4 +54,37 @@ nav{
 			}
 		}
 	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: $mobiles-size) {
+  /* Styles */
+  nav{
+  	.logo-container{
+  		width: 80px;
+  		height: 80px;
+  		padding: 0px;
+  		margin-top: 12px;
+  		.logo{
+
+  		}
+  	}
+  	ul.links{
+  		margin-top: 40px;
+
+  		a[href="#conhecimentos"]{
+  			display: none;
+  		}
+  	}
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: $desktops-size) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: $largescreens-size) {
+  /* Styles */
 }
