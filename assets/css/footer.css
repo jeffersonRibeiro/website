@@ -23,6 +23,9 @@ footer {
       footer .aboutsite-container a:hover {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.6); }
+    footer .contact-container i.icon,
+    footer .aboutsite-container i.icon {
+      margin-right: 5px; }
   footer .copyright {
     background-color: #08D9D6;
     padding: 10px 0;
