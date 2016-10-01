@@ -7,7 +7,7 @@
 
   header.welcome-container{
   	width: 100%;
-  	height: 600px;
+  	height: 650px;
   	background-color: $custom-pink;
   	overflow: hidden;
 
@@ -20,9 +20,76 @@
 
       h1, h2, p{
         margin: 20px 0;
+        border-color: $custom-pink;
       }
     }
-  	
+  }
+
+  .title{
+    text-align: center;
+    font-weight: 100;
+    margin-top: 60px;
+    
+
+    hr{
+      width: 50px;
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid $custom-black;
+      margin: 20px auto 0 auto;
+      padding: 0; 
+    }
+  }
+
+  #sobre,
+  #conhecimentos{
+    overflow: hidden;
+  }
+
+  #sobre{
+    img.perfil{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 60px auto;
+    }
+  }
+
+  .front-end,
+  .back-end,
+  .frameworks{
+    margin-top: 50px;
+  }
+
+  #conhecimentos{
+    .categoria{
+      width: 20%;
+      height: 200px;
+      position: relative;
+
+      .icon{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border-radius: 50%;
+        background-color: $custom-cyan;
+      }
+    }
+    .desc{
+      width: 80%;
+      height: 200px;
+      padding: 20px;
+
+      h4{
+        margin: 0;
+      }
+
+      &.float-left{
+        text-align: right;
+      }
+    }
   }
 
 }

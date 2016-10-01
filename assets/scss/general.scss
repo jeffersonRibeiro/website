@@ -42,7 +42,19 @@
 .thin{ font-weight: 100 }
 .italic{ font-style: italic }
 
-.centered{
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.center{
   top: 50%!important;
   left: 50%!important;
   position: absolute!important;
@@ -68,6 +80,8 @@
   padding: 0 5%;
   position: relative;
   margin: 0 auto;
+
+  max-width: 1633px;
 }
 
 
