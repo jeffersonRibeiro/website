@@ -4,13 +4,15 @@ var gulp 	   = require('gulp'),
 	concatcss  = require('gulp-concat-css'),
 	browserify = require('gulp-browserify'),
 	rename     = require('gulp-rename'),
-	uglify     = require('gulp-uglify');
+	uglify     = require('gulp-uglify'),
+	imagemin   = require('gulp-imagemin');
 
 
 var paths = {
 	scss: 'assets/scss/*.scss',
 	css: ['assets/css/*.css', '!assets/css/bundle.min.css'],
-	script: ['assets/js/app.js', '!assets/js/bundle.min.js']
+	script: ['assets/js/app.js', '!assets/js/bundle.min.js'],
+	images: ['assets/img/*', '!assets/img/min']
 }
 
 gulp.task('sass', function(){
@@ -37,6 +39,12 @@ gulp.task('browserify', function(){
 	.pipe(gulp.dest('assets/js'));
 });
 
+gulp.task('image', function(){
+	gulp.src(paths.images)
+	.pipe(imagemin())
+	.pipe(gulp.dest('assets/img/min'));
+});
+
 
 gulp.task('watch', function(){
 	gulp.watch(paths.scss, ['sass']);
@@ -45,4 +53,4 @@ gulp.task('watch', function(){
 });
 
 
-gulp.task('default', ['sass', 'concat-css', 'browserify', 'watch']);
+gulp.task('default', ['sass', 'concat-css', 'browserify', 'image', 'watch']);

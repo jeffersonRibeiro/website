@@ -1,6 +1,6 @@
 {
-  "name": "Estudando",
-  "tagline": "Repositório para fins de aprendizagem",
-  "body": "# Estudando\r\nRepositório para fins de aprendizagem\r\n\r\n*single asterisks*\r\n\r\n_single underscores_\r\n\r\n**double asterisks**\r\n\r\n__double underscores__\r\n\r\n\\*this text is surrounded by literal asterisks\\*\r\n\r\nUse the `printf()` function.\r\n\r\nSo an inline link to [Yahoo](http://www.yahoo.com) looks like this:\r\n\r\n> ## This is a header.\r\n> \r\n> 1.   This is the first list item.\r\n> 2.   This is the second list item.\r\n> \r\n> Here's some example code:\r\n> \r\n>     return shell_exec(\"echo $input | $markdown_script\");\r\n\r\n* Red \r\n        + Green \r\n            * dark  green \r\n            * lime  \r\n        - Blue      \r\n            1. Item one\r\n                1. subitem 1\r\n                1. subitem 2\r\n            1. Item two\r\n\r\n                This is is a first paragraph.\r\n\r\n                * Green \r\n                * Blue\r\n\r\n                This is a second paragraph.\r\n\r\n            1. Item three\r\n\r\nFirst Header  | Second Header\r\n------------- | -------------\r\nContent Cell  | Content Cell\r\nContent Cell  | Content Cell\r\n\r\n* * *\r\n\r\n***\r\n\r\n*****\r\n\r\n- - - -\r\n\r\n-----------------------",
+  "name": "Site pessoal",
+  "tagline": "Frontend Backend Fullstack Freelancer",
+  "body": "á 2 anos desenvolvendo aplicações Web pensando sempre na experiência do usuário. Desenvolvedor web na Tecnet Comércio LTDA. Responsável pelo FastShare web.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
