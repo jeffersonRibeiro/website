@@ -155,7 +155,7 @@
 /* tablets (portrait) ----------- */
 @media only screen and (min-width: 680px) and (max-width: 1224px) {
   .main-content header.welcome-container .welcome-message {
-    margin: 170px 0 0 20px; }
+    margin: 200px 0 0 50px; }
   .main-content #sobre p {
     padding: 0px; }
   .main-content #conhecimentos .categoria {
