@@ -9,7 +9,11 @@
     width: 100%;
     height: 650px;
     background-color: #FF2E63;
-    overflow: hidden; }
+    overflow: hidden;
+    -webkit-transition: background-color 3s;
+    -moz-transition: background-color 3s;
+    -o-transition: background-color 3s;
+    transition: background-color 3s; }
     .main-content header.welcome-container canvas {
       position: absolute;
       top: 0; }
