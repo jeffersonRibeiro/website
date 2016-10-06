@@ -209,13 +209,7 @@ $(function(){
 	})($, window);
 
 	// Init plugin
-	if($(window).width() < 700){
-		$('canvas').constellation({
-			distance: 40
-		});
-	}
-	else{
+	if($(window).width() > 650){
 		$('canvas').constellation();
 	}
-
 });
