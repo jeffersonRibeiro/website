@@ -6,10 +6,16 @@
   overflow:hidden;
 
   header.welcome-container{
+    position: relative;
   	width: 100%;
   	height: 650px;
   	background-color: $custom-pink;
   	overflow: hidden;
+
+    canvas{
+      position: absolute;
+      top: 0;
+    }
 
     .welcome-message{
       margin: 210px 0 0 80px;
@@ -21,6 +27,7 @@
       h1, h2, p{
         margin: 20px 0;
         border-color: $custom-pink;
+        cursor: default;
       }
     }
   }

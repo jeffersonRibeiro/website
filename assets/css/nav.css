@@ -4,7 +4,8 @@ nav {
   position: absolute;
   width: 100%;
   height: auto;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 3; }
   nav .logo-container {
     float: left;
     position: relative;
