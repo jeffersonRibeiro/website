@@ -64,11 +64,13 @@ nav{
   /* Styles */
   nav{
   	.logo-container{
-  		width: 80px;
-  		height: 80px;
+  		width: 60px;
+  		height: 60px;
   		padding: 0px;
   		.logo{
-
+  			span{
+  				font-size: 1.2em;
+  			}
   		}
   	}
   	ul.links{

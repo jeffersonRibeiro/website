@@ -48,9 +48,11 @@ nav {
 @media only screen and (max-width: 680px) {
   /* Styles */
   nav .logo-container {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     padding: 0px; }
+    nav .logo-container .logo span {
+      font-size: 1.2em; }
   nav ul.links li {
     margin-left: 10px; }
   nav ul.links a[href="#conhecimentos"] {
