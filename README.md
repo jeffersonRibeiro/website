@@ -1,5 +1,4 @@
 # website [jeffersonribeiro.com](http://www.jeffersonribeiro.com)
-Site pessoal com o objetivo de divulgar o meu trabalho na internet.
 
 ### TODO
  - Corrigir o problema de DNS com a Locaweb no acesso sem o 'www' - feito
