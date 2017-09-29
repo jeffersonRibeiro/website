@@ -1,0 +1,28 @@
+$.getScript( "https://cdn.socket.io/socket.io-1.2.0.js", function(){
+	var socket = io('http://192.168.125.205:3000');
+
+	socket.on('chat message', function(msg){
+
+		switch(msg){
+			case 'gemidao':
+				tocar(msg);
+				break;
+			case 'wow':
+				tocar(msg);
+				break;
+		}
+		if(msg === 'gemidao'){
+			
+		}
+	});
+
+	function tocar(_sound){
+		var sound = new Audio('http://192.168.125.205:3000/audio/' + _sound);
+		sound.play();
+
+		window.setTimeout(function(){
+			sound.pause();
+			sound.currentTime = 0;
+		}, 3000);
+	}
+});
