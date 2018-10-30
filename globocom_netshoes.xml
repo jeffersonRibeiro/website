@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vitrine [  <!ELEMENT vitrine (canal,oferta+,urlbusca)> <!ELEMENT oferta (nome*,loja,preco*,urlimagem*,urldestino*)> <!ELEMENT canal (#PCDATA)> <!ELEMENT urlbusca (#PCDATA)> <!ELEMENT nome (#PCDATA)> <!ELEMENT loja (#PCDATA)> <!ELEMENT preco (#PCDATA)> <!ELEMENT urlimagem (#PCDATA)> <!ELEMENT urldestino (#PCDATA)> <!ELEMENT id (#PCDATA)>  <!ATTLIST oferta id CDATA "0">  ]>
+<vitrine>
+    <canal>Globo.com</canal>
+    <urlbusca></urlbusca>
+    <oferta id="0">
+        <nome>Camiseta Fila Bio Manga Longa Feminina</nome>
+        <loja>Netshoes</loja>
+        <preco>à vista R$67,99</preco>
+        <urlimagem>http://static.netshoes.com.br/produtos/camiseta-fila-bio-manga-longa-feminina/18/D29-0588-018/D29-0588-018_zoom1.jpg</urlimagem>
+        <urldestino>https://www.netshoes.com.br/camiseta-fila-bio-manga-longa-feminina-rosa-D29-0588-018</urldestino>
+    </oferta>
+    <oferta id="0">
+        <nome>Camiseta Gonew Detalhe Barra Masculina</nome>
+        <loja>Netshoes</loja>
+        <preco>até 1x de R$ 22,99</preco>
+        <urlimagem>http://static.netshoes.com.br/produtos/camiseta-gonew-detalhe-barra-masculina/10/C62-1826-010/C62-1826-010_zoom1.jpg</urlimagem>
+        <urldestino>https://www.netshoes.com.br/camiseta-gonew-detalhe-barra-masculina-cinza-C62-1826-010</urldestino>
+    </oferta>
+    <oferta id="0">
+        <nome>Camiseta Nike Dri-Fit Miler Ss Masculina</nome>
+        <loja>Netshoes</loja>
+        <preco>até 2x de R$ 45,00</preco>
+        <urlimagem>http://static.netshoes.com.br/produtos/camiseta-nike-dri-fit-miler-ss-masculina/88/D12-9183-188/D12-9183-188_zoom1.jpg</urlimagem>
+        <urldestino>https://www.netshoes.com.br/camiseta-nike-drifit-miler-ss-masculina-mescla-D12-9183-188</urldestino>
+    </oferta>
+    <oferta id="0">
+        <nome>Camisa Palmeiras I 2018 s/n° Torcedor Adidas </nome>
+        <loja>Netshoes</loja>
+        <preco>à vista R$249,99</preco>
+        <urlimagem>http://static.netshoes.com.br/produtos/camisa-palmeiras-i-2018-sn-torcedor-adidas-masculina/54/COL-2847-054/COL-2847-054_zoom1.jpg</urlimagem>
+        <urldestino>https://www.netshoes.com.br/camisa-palmeiras-i-2018-sn-torcedor-adidas-masculina-verde+branco-COL-2847-054</urldestino>
+    </oferta>
+</vitrine>
+<!--Pagina Concluida -->
