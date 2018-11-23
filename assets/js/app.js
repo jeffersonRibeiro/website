@@ -210,7 +210,7 @@ $(function(){
   
   var amountStars = 100;
 	
-	if($(window).width() > 650) {
+	if($(window).width() < 650) {
     amountStars = 20;
   }
 
