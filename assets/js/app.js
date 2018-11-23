@@ -210,7 +210,7 @@ $(function(){
   
 	
 if($(window).width() > 650) {
-    $('#bg-canvas').constellation({ length: amountStars });
+    $('#bg-canvas').constellation();
   /*
     Define uma cor aleatória para o header a cada 10s
   */
