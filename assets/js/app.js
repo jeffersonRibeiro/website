@@ -206,19 +206,24 @@ $(function(){
 				c.init();
 			});
 		};
-	})($, window);
+  })($, window);
+  
+  var amountStars = 100;
 	
 	if($(window).width() > 650) {
-    $('#bg-canvas').constellation();
-    /*
-      Define uma cor aleatória para o header a cada 10s
-    */
-    var favcolors = ["#083358", "#0D63A5", "#07A4B5", "#15B7B9", "#1F024C", "#45056E", "#48466D", "#11999E", "#5A082D", "#252A34"];
-    var intervalHColor = setInterval(setHeaderColor, 10000); // 10segundos
+    amountStars = 20;
+  }
 
-    function setHeaderColor(){
-      var newColor = favcolors[Math.floor(Math.random()*favcolors.length)];
-      $('header.welcome-container').css('background-color', newColor);
-    }
-  };
+  $('#bg-canvas').constellation({ length: amountStars });
+  /*
+    Define uma cor aleatória para o header a cada 10s
+  */
+  var favcolors = ["#083358", "#0D63A5", "#07A4B5", "#15B7B9", "#1F024C", "#45056E", "#48466D", "#11999E", "#5A082D", "#252A34"];
+  var intervalHColor = setInterval(setHeaderColor, 10000); // 10segundos
+
+  function setHeaderColor(){
+    var newColor = favcolors[Math.floor(Math.random()*favcolors.length)];
+    $('header.welcome-container').css('background-color', newColor);
+  }
+
 });
