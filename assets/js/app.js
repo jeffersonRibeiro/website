@@ -208,13 +208,9 @@ $(function(){
 		};
   })($, window);
   
-  var amountStars = 100;
 	
-	if($(window).width() < 650) {
-    amountStars = 20;
-  }
-
-  $('#bg-canvas').constellation({ length: amountStars });
+if($(window).width() > 650) {
+    $('#bg-canvas').constellation({ length: amountStars });
   /*
     Define uma cor aleatória para o header a cada 10s
   */
@@ -225,5 +221,8 @@ $(function(){
     var newColor = favcolors[Math.floor(Math.random()*favcolors.length)];
     $('header.welcome-container').css('background-color', newColor);
   }
+  }
+
+  
 
 });
