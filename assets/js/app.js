@@ -1,5 +1,3 @@
-var $ = require('jquery');
-
 $(function(){
 	/*
 		Adiciona uma animação no rolamento da página quando
