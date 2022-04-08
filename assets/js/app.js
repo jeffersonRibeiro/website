@@ -1,5 +1,4 @@
 $(function() {
-	window.location.href = "https://www.linkedin.com/in/jeffersonribeiro123/";
   /*
 		Adiciona uma animação no rolamento da página quando
 		um link com '#' é clicado
