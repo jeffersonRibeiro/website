@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jeffersonRibeiro/website#readme",
   "devDependencies": {
-    "browserify": "^13.1.0",
+    "browserify": "^13.3.0",
     "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
     "gulp-concat-css": "^2.3.0",
